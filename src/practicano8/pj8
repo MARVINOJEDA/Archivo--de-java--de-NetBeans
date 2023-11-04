@@ -1,0 +1,38 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package practicano8;
+import java.util.Scanner;
+/**
+ *
+ * @author victor
+ */
+public class Practicano8 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        float n1, n2, n3, n4, n5, n6, n7, n8;
+        Scanner Scanner=new Scanner(System.in);
+        System.out.println("Selecciona una calificacion");
+        n1 =Scanner.nextInt();
+        System.out.println("Selecciona una calificacion");
+        n2 =Scanner.nextInt();
+        System.out.println("Selecciona una calificacion");
+        n3 =Scanner.nextInt();
+        System.out.println("Selecciona una calificacion");
+        n4 =Scanner.nextInt();
+        System.out.println("Selecciona una calificacion");
+        n5 =Scanner.nextInt();
+        System.out.println("Selecciona una calificacion");
+        n6 =Scanner.nextInt();
+        System.out.println("Selecciona una calificacion");
+        n7 =Scanner.nextInt();
+        System.out.println("Selecciona una calificacion");
+        n8 =Scanner.nextInt();
+        System.out.println("El promedio de las 8 califacaciones es:" + (n1+n2+n3+n4+n5+n6+n7+n8)/8);
+}
+}
